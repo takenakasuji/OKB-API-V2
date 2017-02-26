@@ -1,0 +1,70 @@
+body {
+    margin: 0 auto;
+}
+.main-visual {
+    height: 200px;
+    background-color: #263238;
+}
+.main-message {
+    margin: 0;
+    padding-top: 55px;
+    color: #FFF;
+    text-align: center;
+}
+.main-message::after {
+    content: "BETA";
+    position: absolute;
+    font-size: 14px;
+    padding: 5px;
+    color: #EF5350;
+}
+.sub-message {
+    color: #FFF;
+    text-align: center;
+}
+.code-wrapper {
+    margin-top: 40px;
+    text-align: center;
+}
+.code-section {
+    text-align: left;
+    margin: 10px auto;
+    display: block;
+    color: #FFF;
+    background-color: #263238;
+    max-width: 800px;
+    height: 400px;
+    overflow-y: scroll;
+}
+.api {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.api-url {
+    text-align: left;
+    margin-right: 1px;
+    color: #263238;
+}
+.api-submit {
+    margin-left: 5px;
+    width: 120px;
+}
+.code {
+    margin: 10px 10px;
+    font-size: 14px;
+}
+.loading {
+    margin-left: 5px;
+}
+.footer {
+    margin-top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: #FFF;
+    background-color: #00BCD4;
+}
+.footer-title {
+    font-size: 0.7rem;
+    padding: 16px 0 0 23px;
+}
