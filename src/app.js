@@ -1,9 +1,9 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-import injectTapEventPlugin from 'react-tap-event-plugin';
-import Header from './header.js';
-import Code from './code.js';
-import Counter from './counter.js';
+import React from 'react'
+import ReactDom from 'react-dom'
+import injectTapEventPlugin from 'react-tap-event-plugin'
+import Header from './header.js'
+import Code from './code.js'
+import Counter from './counter.js'
 import Footer from './footer.js'
 
 window.React = React // For dubug
