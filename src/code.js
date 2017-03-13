@@ -9,7 +9,6 @@ import axios from 'axios'
 const URL = 'http://pokeapi.co/api/v2/'
 
 export default class Code extends Component {
-
     constructor() {
         super()
         this.state = {

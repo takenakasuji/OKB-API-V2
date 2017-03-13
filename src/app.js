@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {Component} from 'react'
 import ReactDom from 'react-dom'
 import injectTapEventPlugin from 'react-tap-event-plugin'
 import Header from './header.js'
@@ -9,8 +9,8 @@ import Footer from './footer.js'
 window.React = React // For dubug
 injectTapEventPlugin()
 
-const APP = React.createClass({
-    render: () => {
+export default class APP extends React.Component {
+    render () {
         return (
             <div>
                 <Header />
@@ -25,7 +25,7 @@ const APP = React.createClass({
             </div>
         )
     }
-})
+}
 
 ReactDom.render(
     <APP />,
