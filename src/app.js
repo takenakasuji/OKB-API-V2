@@ -9,7 +9,7 @@ import Footer from './footer.js'
 window.React = React // For dubug
 injectTapEventPlugin()
 
-export default class APP extends React.Component {
+class APP extends React.Component {
     render () {
         return (
             <div>
